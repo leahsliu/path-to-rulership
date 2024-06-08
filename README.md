@@ -1,2 +1,3 @@
 ## Path to Rulership
-Leah Liu
+leahsliu (Leah Liu)
+cliupatra (Alexis Liu)
