@@ -60,7 +60,7 @@ class Game:
                         self.movement[2] = False
                     if event.key == pg.K_DOWN:
                         self.movement[3] = False
-                self.screen.blit(self.display, (0,0))
+                self.screen.blit(pg.transform.scale(self.display, self.screen.get_size()), (0,0))
                 pg.display.update()
                 self.clock.tick(60)
 
